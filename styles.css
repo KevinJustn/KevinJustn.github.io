@@ -1,4 +1,12 @@
-.content { 
-    width: 1;
-    margin: auto;
+.container { 
+    width: 80%;
+    margin: 0 auto;
+}
+
+body { 
+    background-color: cadetblue;
+}
+
+p { 
+    font-size: 16px;
 }
