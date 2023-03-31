@@ -2,12 +2,13 @@
     width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border:thin solid black;
+    border:thin solid brown;
     text-align: center;
+    background-color: mediumseagreen;
 }
 
 body { 
-    background-color:mediumseagreen;
+    background-color:#323232;
 }
 
 p { 
