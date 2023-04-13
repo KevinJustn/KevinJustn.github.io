@@ -1,6 +1,8 @@
 function dropDown() {
   let dropList = document.getElementById("myDropdown").classList.toggle("show");
-  console.log("Year selected is: " + dropList.year)
+  dropList.onchange = (ev) => { 
+    console.log("Year selected is: " + dropList.year)
+  }
 }
 
 window.onclick = function(event) {

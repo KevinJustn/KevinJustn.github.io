@@ -1,5 +1,3 @@
-import button from "./education.html"
-
 fetch("semesters.json")
 .then(function(response){
     return response.json();
