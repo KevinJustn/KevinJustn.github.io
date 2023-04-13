@@ -3,6 +3,9 @@
   <head>
     <title>Kevin Jusino's Education</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="function" type="js" href="dropdown.js">
+
+    
   </head>
   
   <body>
@@ -19,8 +22,18 @@
       <h1><br>My Education</h1>
 
       <h2>Select a Semester:</h2>
+      <div class="dropdown">
+        <button onclick="dropDown()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a year="1920" selected="selected">2019 Fall - 2020 Spring</a>
+          <a year="2021">2020 Fall - 2021 Spring</a>
+          <a year="2122">2021 Fall - 2022 Spring</a>
+          <a year="2223">2022 Fall - 2023 Spring</a>
+        </div>
+      </div>
       
-      
+      <script src="dropdown.js"></script> <!-- Link to dropdown.js file-->
+      <p> Text will go here </p>
     
       <table> 
         <thead>
