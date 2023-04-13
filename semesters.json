@@ -26,5 +26,33 @@
         "prefix": "CSC 4",
         "languages": "JSON",
         "grade": "Passing"
+    },
+    {
+        "id": 5,
+        "name": "Course 1",
+        "prefix": "CSC 1",
+        "languages": "HTML",
+        "grade": "Passing"
+    },
+    {
+        "id": 6,
+        "name": "Course 2",
+        "prefix": "CSC 2",
+        "languages": "Javascript",
+        "grade": "Passing"
+    },
+    {
+        "id": 7,
+        "name": "Course 3",
+        "prefix": "CSC 3",
+        "languages": "CSS",
+        "grade": "Passing"
+    },
+    {
+        "id": 8,
+        "name": "Course 4",
+        "prefix": "CSC 4",
+        "languages": "JSON",
+        "grade": "Passing"
     }
 ]
