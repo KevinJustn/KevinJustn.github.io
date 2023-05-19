@@ -46,10 +46,26 @@ table{
 	margin: 20px auto;
 }
 
+#PSU-1 { 
+	display: none;
+}
+
+#initial_button1 { 
+	display: button;
+}
+
+#show_button1 { 
+	display: none;
+}
+
+#hide_button1 { 
+	display: none;
+}
+
 table th{
-	padding: 5px 0;
-	background-color:black;
-    color: snow;
+	padding: 10px;
+	background-color:black; 
+    color: snow; 
 	/* background-color: #fff; */
 	border:  thin solid black;
 }
@@ -125,6 +141,7 @@ table img{
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+	cursor: pointer;
   }
   
   .dropdown-content a {

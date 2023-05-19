@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Architectural Engineering - First Year Seminar",
+        "prefix": "AE 124",
+        "languages": "SOLIDWORKS 2019 and AutoCAD",
+        "grade": "A-"
+    },
+    {
+        "id": 2,
+        "name": "Chemistry - Problem Solving",
+        "prefix": "CHEM 108",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Chemistry - Principles I",
+        "prefix": "CHEM 110",
+        "languages": "-",
+        "grade": "A-"
+    },
+    {
+        "id": 4,
+        "name": "Economics - Microeconomics Analysis",
+        "prefix": "ECON 102",
+        "languages": "-",
+        "grade": "B"
+    },
+    {
+        "id": 5,
+        "name": "Engineering Design - Introduction to Engineering Design",
+        "prefix": "EDSGN 100",
+        "languages": "Texas Instruments Robotic System Learning Kit and SOLIDWORKS 2019",
+        "grade": "A"
+    },
+    {
+        "id": 6,
+        "name": "English - Rhetoric and Composition",
+        "prefix": "ENGL 15",
+        "languages": "-",
+        "grade": "B"
+    },
+    {
+        "id": 7,
+        "name": "Mathematics - Trigonometry and Analytic Geometry",
+        "prefix": "MATH 41",
+        "languages": "-",
+        "grade": "A"
+    }
+]
