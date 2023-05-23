@@ -14,7 +14,7 @@
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About Me</a></li>
         <li><a href="./education.html">My Education</a></li>
-        <li><a href="./courses.html">Relevant Courses</a></li>
+        <li><a href="./courses.html">Course History</a></li>
         <li><a href="#">My Projects</a></li>
         <li><a href="#">Work Experience</a></li>
       </ul>
@@ -24,18 +24,21 @@
       
       
       <script src="dropdown.js"></script> <!-- Link to dropdown.js file-->
-      <p> Below I have listed the semester, year, and courses taken through each of my semesters of University. </p>
+      <p> Below is a dropdown button that will list all the semesters I have taken through University. To view the courses and grades of a particular semester, select the button in the dropdown menu.</p>
 
       <h2>Select a Semester:</h2>
       <div class="dropdown">
-        <button onclick="dropDown()" class="dropbtn">Dropdown</button>
+        <button onclick="dropDown()" class="dropbtn">Semesters</button>
         <div id="myDropdown" class="dropdown-content">
           <button id="clear" onclick="clearTable()">Clear Table</button>
-          <button id="semester1" onclick="updateSemester('semester1.json'); changeTableHeaderPSU('Fall 2019 - Penn State Univerity - State College, PA')">Toggle Semester 1 - PSU</button>
-          <button id="semester2" onclick="updateSemester('semester2.json'); changeTableHeaderPSU('Spring 2020 - Penn State Univerity - State College, PA')">Toggle Semester 2 - PSU</button>
-          <a year="2021">2020 Fall - 2021 Spring</a>
-          <a year="2122">2021 Fall - 2022 Spring</a>
-          <a year="2223">2022 Fall - 2023 Spring</a>
+          <button id="semester1" onclick="updateSemester('semester1.json'); changeTableHeaderPSU('Fall 2019 - Penn State Univerity - State College, PA')">Semester 1 - PSU</button>
+          <button id="semester2" onclick="updateSemester('semester2.json'); changeTableHeaderPSU('Spring 2020 - Penn State Univerity - State College, PA')">Semester 2 - PSU</button>
+          <button id="semester3" onclick="updateSemester('semester3.json'); changeTableHeaderWCU('Fall 2020 - West Chester University - West Chester, PA')">Semester 3 - WCU</button>
+          <button id="semester4" onclick="updateSemester('semester4.json'); changeTableHeaderWCU('Spring 2021 - West Chester University - West Chester, PA')">Semester 4 - WCU</button>
+          <button id="semester5" onclick="updateSemester('semester5.json'); changeTableHeaderWCU('Fall 2021 - West Chester University - West Chester, PA')">Semester 5 - WCU</button>
+          <button id="semester6" onclick="updateSemester('semester6.json'); changeTableHeaderWCU('Spring 2022 - West Chester University - West Chester, PA')">Semester 6 - WCU</button>
+          <button id="semester7" onclick="updateSemester('semester7.json'); changeTableHeaderWCU('Fall 2022 - West Chester University - West Chester, PA')">Semester 7 - WCU</button>
+          <button id="semester8" onclick="updateSemester('semester8.json'); changeTableHeaderWCU('Spring 2023 - West Chester University - West Chester, PA')">Semester 8 - WCU</button>
         </div>
       </div>
     
@@ -49,7 +52,7 @@
           <tr>
             <th>Course Name</th>
             <th>Course Prefix</th>
-            <th>Coding Languages</th>
+            <th>Coding Relevance</th>
             <th>Grade</th>
           </tr>
         </thead>
@@ -60,6 +63,9 @@
 
       <script src ="script.js"></script> <!-- Link to script.js file-->
 
+
+      <h4>Cumulative GPA: 3.886</h4>
+      <h4>Total Credits: 123.000</h4>
     </div>
   </body>
 </html>
