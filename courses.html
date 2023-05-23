@@ -10,56 +10,56 @@
   
   <body>
     <div class="container">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About Me</a></li>
-            <li><a href="./education.html">My Education</a></li>
-            <li><a href="./courses.html">Relevant Courses</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">Work Experience</a></li>
-        </ul>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="./education.html">My Education</a></li>
+        <li><a href="./courses.html">Relevant Courses</a></li>
+        <li><a href="#">My Projects</a></li>
+        <li><a href="#">Work Experience</a></li>
+      </ul>
 
-    <h1><br>My College Courses</h1>
+      <h1><br>My College Courses</h1>
 
       
       
-    <script src="dropdown.js"></script> <!-- Link to dropdown.js file-->
-  <p> Below I have listed the semester, year, and courses taken through each of my semesters of University. To learn more about each course, click on the dropdown button next to their names. </p>
-    
-  <h2> Semester 1 - Fall 2019 - Penn State Univerity - State College, PA</h2>
+      <script src="dropdown.js"></script> <!-- Link to dropdown.js file-->
+      <p> Below I have listed the semester, year, and courses taken through each of my semesters of University. </p>
 
-  <table>
-    <thead>
-        <th style="background-color: mediumseagreen ; border: mediumseagreen">
-        <button id="initial_button1" onclick="updateSemester('semester1.json'); toggleTable(); toggleTable(); toggleButtonH1(); toggleButtonH1(); toggleButtonS1(); toggleButtonIn()">Show Table for Semester 1</button>
-        <button id="show_button1" onclick="toggleButtonH1(); toggleButtonS1(); toggleTable()">Show Table for Semester 1</button>
-        <button id="hide_button1" onclick="toggleButtonS1(); toggleButtonH1(); toggleTable()">Hide Table for Semester 1</button>
-        <script src="script.js"></script>
-        </th>
-    </thead>
-  </table>
+      <h2>Select a Semester:</h2>
+      <div class="dropdown">
+        <button onclick="dropDown()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <button id="clear" onclick="clearTable()">Clear Table</button>
+          <button id="semester1" onclick="updateSemester('semester1.json'); changeTableHeaderPSU('Fall 2019 - Penn State Univerity - State College, PA')">Toggle Semester 1 - PSU</button>
+          <button id="semester2" onclick="updateSemester('semester2.json'); changeTableHeaderPSU('Spring 2020 - Penn State Univerity - State College, PA')">Toggle Semester 2 - PSU</button>
+          <a year="2021">2020 Fall - 2021 Spring</a>
+          <a year="2122">2021 Fall - 2022 Spring</a>
+          <a year="2223">2022 Fall - 2023 Spring</a>
+        </div>
+      </div>
     
-      <table id="PSU-1"> 
+      <table id="table"> 
         <thead>
-            <tr>
-                <th colspan="4" style="background-color:darkblue;">
-                    Fall 2019 - Penn State Univerity - State College, PA
-                </th>
-            </tr>
-            <tr>
-                <th>Course Name</th>
-                <th>Course Prefix</th>
-                <th>Coding Languages</th>
-                <th>Grade</th>
-            </tr>
+          <tr>
+            <th id="tableHeader" colspan="4" style="background-color:black; color:white">
+              Select a Semester to begin!
+            </th>
+          </tr>
+          <tr>
+            <th>Course Name</th>
+            <th>Course Prefix</th>
+            <th>Coding Languages</th>
+            <th>Grade</th>
+          </tr>
         </thead>
         <tbody id="data-output" value = "1">
-            <!-- Populated from script.js and semester.json files -->
+          <!-- Populated from script.js and semester jsons files -->
         </tbody>
       </table>
 
       <script src ="script.js"></script> <!-- Link to script.js file-->
-      
+
     </div>
   </body>
 </html>
@@ -75,4 +75,8 @@
           <a year="2223">2022 Fall - 2023 Spring</a>
         </div>
       </div>
+
+
+
+      
 -->

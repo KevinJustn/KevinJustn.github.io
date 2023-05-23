@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Art History - Renaissance to Modern Architecture",
+        "prefix": "ARTH 202N",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 2,
+        "name": "Communication Arts and Sciences - Effective Speech",
+        "prefix": "CAS 100A",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Computer Science - Programming and Computation I: Fundamentals",
+        "prefix": "CMPSC 131",
+        "languages": "Python",
+        "grade": "A-"
+    },
+    {
+        "id": 4,
+        "name": "Mathematics - Calculus With Analytic Geometry I",
+        "prefix": "MATH 140",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 5,
+        "name": "Physics - General Physics: Mechanics",
+        "prefix": "PHYS 211",
+        "languages": "-",
+        "grade": "SAT"
+    }
+]

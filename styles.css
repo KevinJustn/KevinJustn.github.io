@@ -46,19 +46,7 @@ table{
 	margin: 20px auto;
 }
 
-#PSU-1 { 
-	display: none;
-}
-
-#initial_button1 { 
-	display: button;
-}
-
-#show_button1 { 
-	display: none;
-}
-
-#hide_button1 { 
+#PSU-1, #PSU-2 { 
 	display: none;
 }
 

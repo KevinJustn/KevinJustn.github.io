@@ -9,8 +9,6 @@ function updateSemester(newSemester) {
     .then(function(semesters){
         let placeholder = document.querySelector("#data-output");
         let out = [];
-        let newOut = [];
-        let years = 1
         for(let semester of semesters){
             out += `
                 <tr>
@@ -26,8 +24,35 @@ function updateSemester(newSemester) {
     });
 }
 
-function toggleTable() {
-    var table = document.getElementById("PSU-1");
+function clearTable() { 
+    var table = document.getElementById("table");
+    var tbody = table.getElementsByTagName("tbody")[0];
+    tbody.innerHTML = "";
+    var header = document.getElementById("tableHeader");
+    header.style.backgroundColor= "black";
+    header.style.color = "white";
+    header.textContent = "Select a Semester to begin!"
+}
+
+function changeTableHeaderPSU(input) { 
+    var header = document.getElementById("tableHeader");
+    header.style.backgroundColor = "darkblue";
+    header.style.color = "white";
+    header.textContent = input;
+}
+
+function changeTableHeaderWCU(input) { 
+    var header = document.getElementById("tableHeader");
+    header.style.backgroundColor= "purple";
+    header.style.color = "gold";
+    header.textContent = input;
+}
+
+
+
+
+function toggleTable(tableName) {
+    var table = document.getElementById(tableName);
     
     if (table.style.display === "none") {
       table.style.display = "table";
@@ -36,8 +61,8 @@ function toggleTable() {
     }
 }
 
-function toggleButtonIn() {
-    var button = document.getElementById("initial_button1");
+function toggleButtonIn(initialButton) {
+    var button = document.getElementById(initialButton);
     
     if (button.style.display === "none") {
         button.style.display = "button";
@@ -46,8 +71,8 @@ function toggleButtonIn() {
     }
 }
 
-function toggleButtonH1() {
-    var button = document.getElementById("hide_button1");
+function toggleButtonH1(hideButton) {
+    var button = document.getElementById(hideButton);
     
     if (button.style.display === "none") {
         button.style.display = "block";
@@ -56,12 +81,39 @@ function toggleButtonH1() {
     }
 }
 
-function toggleButtonS1() {
-    var button = document.getElementById("show_button1");
+function toggleButtonS1(showButton) {
+    var button = document.getElementById(showButton);
     
     if (button.style.display === "none") {
       button.style.display = "block";
     } else {
       button.style.display = "none";
+    }
+}
+
+function hideAllTables() { 
+    var table = document.getElementById("PSU-1");
+    table.style.display = "none";
+    var table = document.getElementById("PSU-2");
+    table.style.display = "none";
+}
+
+var set = 0
+function toggleInitialTable(input){ 
+    set += input;
+    if (set === 1) { 
+        var tables = ["PSU-1","PSU-2"];
+        for (i=0; i<tables.length; i++) { 
+            var table = document.getElementById(tables[i]);
+        
+            if (table.style.display === "none") {
+            table.style.display = "table";
+            } else {
+            table.style.display = "none";
+            }
+        }
+    }
+    else {
+        return
     }
 }
