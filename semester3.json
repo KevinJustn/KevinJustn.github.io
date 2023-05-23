@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "General Chemistry Lab I",
+        "prefix": "CRL 103",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 2,
+        "name": "Computer Science II",
+        "prefix": "CSC 142",
+        "languages": "Java",
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Contemporary Global History",
+        "prefix": "HIS 100",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 4,
+        "name": "Introduction to Discrete Mathematics",
+        "prefix": "MATH 151",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 5,
+        "name": "World Geography",
+        "prefix": "GEO 101",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 6,
+        "name": "Critical Writing and Research",
+        "prefix": "WRT 200",
+        "languages": "-",
+        "grade": "B+"
+    }
+]

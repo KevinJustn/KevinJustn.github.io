@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Security & Ethics",
+        "prefix": "CSC 301",
+        "languages": "Assembly Language",
+        "grade": "A"
+    },
+    {
+        "id": 2,
+        "name": "Software Engineering",
+        "prefix": "CSC 402",
+        "languages": "Java",
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Programming Language Concepts/Paradigms",
+        "prefix": "CSC 345",
+        "languages": "Haskell",
+        "grade": "A"
+    },
+    {
+        "id": 4,
+        "name": "Introduction to Statistics II",
+        "prefix": "STA 200",
+        "languages": "SPSS Program",
+        "grade": "A-"
+    },
+    {
+        "id": 5,
+        "name": "Introduction to Cloud Computing",
+        "prefix": "CSC 468",
+        "languages": "C, Python, Docker, Kubernetes, Jenkins, and Cloud Lab",
+        "grade": "B"
+    }
+]

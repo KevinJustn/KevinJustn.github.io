@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Security",
+        "prefix": "CSC 302",
+        "languages": "C and Assembly Language",
+        "grade": "A-"
+    },
+    {
+        "id": 2,
+        "name": "User Interfaces",
+        "prefix": "CSC 417",
+        "languages": "Javascript, HTML, and CSS",
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Software Testing",
+        "prefix": "CSC 404",
+        "languages": "Javascript, HTML, and CSS",
+        "grade": "A"
+    },
+    {
+        "id": 4,
+        "name": "Modern Malware Analysis",
+        "prefix": "CSC 471",
+        "languages": "C, Python, and Assembly Language",
+        "grade": "A"
+    }
+]

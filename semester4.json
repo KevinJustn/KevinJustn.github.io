@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to World Literature",
+        "prefix": "CLS 165",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 2,
+        "name": "Introduction to Ethics",
+        "prefix": "PHI 180",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Computer Science III",
+        "prefix": "CSC 240",
+        "languages": "Java",
+        "grade": "A"
+    },
+    {
+        "id": 4,
+        "name": "Introduction to Global Studies",
+        "prefix": "GST 110",
+        "languages": "-",
+        "grade": "A"
+    },
+    {
+        "id": 5,
+        "name": "Introduction to Statistics I",
+        "prefix": "MAT 121",
+        "languages": "-",
+        "grade": "A"
+    }
+]
