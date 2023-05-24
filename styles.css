@@ -1,7 +1,7 @@
 .container { 
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     border:thin solid brown;
     text-align: center;
     background-color: mediumseagreen;
@@ -17,9 +17,9 @@ p {
 
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	margin-inline: 107px;
+	padding: 0px;
+	overflow:hidden;
 	background-color: #333;
   }
 
