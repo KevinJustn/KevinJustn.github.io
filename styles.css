@@ -77,7 +77,7 @@ table td.total-price{
 table a{
 	text-decoration: none;
 	color: darkred;
-	background-color: #ffecef;
+	background-color: white;
 	padding: 10px 15px;
 }
 table a:active{
